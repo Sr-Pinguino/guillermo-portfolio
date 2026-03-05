@@ -53,24 +53,77 @@
     </div>
 </section>
 
+    
+<! SECCION: SPATIAL TRANSLATION>
 <section id="translation">
     <h3>Spatial Translation</h3>
+    <! PROYECTO: GARGOLA - FOTOGRAMETRIA>
     <div class="project">
         <div class="project-image">
-            <img src="images/gargoyle.jpg" alt="Gargoyle">
-            <img src="images/gargoyle_wireframe.jpg" alt="Gargoyle Wireframe" class="secondary-image">
+            <video controls autoplay muted loop style="width:100%; border-radius:6px;">
+                <source src="assets/Gargoyle.mp4" type="video/mp4">
+            </video>
+
+            <iframe 
+                title="Gargoyle 3D Model"
+                frameborder="0"
+                allowfullscreen
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                style="width:100%; height:400px; margin-top:15px; border-radius:6px;"
+                src="https://sketchfab.com/models/e62e8fae743b40b7b8c382ccca863725/embed">
+            </iframe>
         </div>
+
         <div class="project-content">
-            <h4>Gargoyle — Photogrammetry Reconstruction</h4>
+            <h4>Gargoyle — Controlled Photogrammetry Reconstruction</h4>
             <div class="project-meta">
-                Photogrammetry · Mesh Processing · Cinema 4D · 2023
+                3DF Zephyr · 100 RAW Images · DSLR + Tripod · Studio Lighting
             </div>
+
             <div class="project-section">
                 <strong>Objective</strong>
                 <p>
-                    Translate a physical sculptural reproduction into a structurally clean and spatially accurate digital asset.
+                    Translate a physical sculptural reproduction into a structurally reliable 
+                    and spatially coherent digital asset through controlled image acquisition 
+                    and mesh validation.
                 </p>
             </div>
+
+            <div class="project-section">
+                <strong>Acquisition Setup</strong>
+                <p>
+                    100 RAW images captured using a tripod-mounted DSLR under controlled studio lighting.
+                    Neutral background and masked dataset processing inside 3DF Zephyr to isolate geometry.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <strong>Processing Pipeline</strong>
+                <p>
+                    High-resolution mesh generation (234,182 polygons), followed by artifact correction,
+                    hole reconstruction, surface noise cleanup, decimation and texture baking.
+                    Final optimized mesh: 35,526 polygons.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <strong>Technical Challenges</strong>
+                <p>
+                    Reconstruction gaps in occluded regions and surface noise artifacts.
+                    Addressed through targeted masking, localized mesh rebuilding and topology refinement.
+                </p>
+            </div>
+
+            <div class="project-section">
+                <strong>Focus</strong>
+                <p>
+                    Surface fidelity · Mesh integrity · Hole correction · Scale validation · 
+                    Controlled data acquisition workflow
+                </p>
+            </div>
+        </div>
+    </div>
 
             <div class="project-section">
                 <strong>Technical Focus</strong>
